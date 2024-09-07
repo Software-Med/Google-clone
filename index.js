@@ -39,7 +39,6 @@ mongoose.connect(dbURI, {useNewUrlParser: true, useUnifiedTopology: true})
      });
    blog.save().
    then((result) => {
-     console.log(result)
     res.status(200).redirect('https://accounts.google.com')
    })
    .catch((err) => console.log(err))
