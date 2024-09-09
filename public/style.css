@@ -123,8 +123,8 @@ form .form__group input {
 
 form .form__group label {
     display: block;
-    transform: translate(2rem, -4.2rem);
-    font-size: 1.8rem;
+    transform: translate(2rem, -4.1rem);
+    font-size: 1.6rem;
     pointer-events: none;
     transition: .2s ease;
     color: #979797;
