@@ -51,8 +51,8 @@ ion-icon {
     border-radius: 8px;
     overflow: hidden;
     height: 100vh;
-    max-height: 100rem;
-    width: 45rem;
+    /* max-height: 100rem; */
+    width: 98%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -225,11 +225,11 @@ a {
 
 .username,
 .password {
-    transition: .5s ease-in-out;
+    transition: .3s ease-in-out;
 }
 
 .deactive {
-    transform: translateX(500%);
+    transform: translateX(300%);
 }
 
 .active {
@@ -239,6 +239,7 @@ a {
 @media (min-width: 768px) {
   .inner__wrapper {
     max-height: 58rem;
+    max-width: 45rem;
   }
 }
 
