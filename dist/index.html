@@ -35,7 +35,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="form-wrapper password">
+                    <div class="form-wrapper password deactive">
                         <div class="form__group">
                             <input type="password" name="passw" id="typepass"
                             class="p-input" required>
@@ -188,7 +188,7 @@
             signIn.textContent = 'Welcome';
             gmailAccount.classList.add('changeName');
             gmailAccount.innerHTML = `<ion-icon
-            name="person-circle-outline"></ion-icon> ${w} <ion-icon
+            name="person-circle-outline"></ion-icon> <span class="user"> ${w}</span> <ion-icon
             name="caret-down-outline" class="small"></ion-icon>`;
           return '<h1>About Page</h1>';
       }
